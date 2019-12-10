@@ -1,5 +1,6 @@
 body{
     background-color: lightsteelblue;
+    overflow: hidden;
 }
 nav{
     background-color: royalblue;
@@ -13,6 +14,7 @@ nav ul{
     overflow: hidden;
     list-style-type:none;
     padding-right: 110px;
+    overflow: hidden;
 }
 
 nav ul li{
