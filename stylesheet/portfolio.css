@@ -1,6 +1,5 @@
 body{
     background-color: lightsteelblue;
-    overflow: hidden;
 }
 nav{
     background-color: royalblue;
@@ -14,12 +13,12 @@ nav ul{
     overflow: hidden;
     list-style-type:none;
     padding-right: 110px;
-    overflow: hidden;
 }
 
 nav ul li{
     float:right;
     margin-right: 20px;
+    overflow: hidden;
 }
 
 nav ul li a{
@@ -33,6 +32,7 @@ nav ul li a{
     border-radius: 10% 10% 0% 0%;
     height: 60px;
     border: 2px solid black;
+    overflow: hidden;
 }
 
 nav ul li a:hover{
