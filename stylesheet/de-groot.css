@@ -28,7 +28,6 @@ table{
 }
 
 img{
-    width 150px;
     height:150px;
 }
 
@@ -77,4 +76,9 @@ span{
 
 .underline{
     text-decoration: underline;
+}
+
+.L{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
 }
