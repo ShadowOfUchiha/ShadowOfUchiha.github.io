@@ -1,6 +1,8 @@
-/* file: portfolio.css
+/* 
+file: portfolio.css
 date: 12/3/2019
-autor: Johnny Magielse */
+autor: Johnny Magielse 
+*/
 
 body{
     background-color: white;
@@ -15,13 +17,7 @@ body{
     width:80%;
     margin:auto;
     overflow:hidden;
-} 
-
-#johnny{
-    height:200px;
-    width:200px;
-    border-radius: 50%;
-} /* picture of me */
+}
 
 #main-header{
     background-color:rgba(168, 50, 50, 0.945);
@@ -51,6 +47,10 @@ body{
     font:18px;
     padding-right:15px;
     font-size:19px; 
+}
+
+nav ul li a:hover{
+    color: rgba(168, 50, 50, 0.945);
 }
 
 #home {
@@ -101,7 +101,7 @@ body{
     color:white;
     text-align:center;
     padding:20px;
-    margin-top:40px;
+    margin-top:45px;
 }
 
 @media(max-width:600px){
@@ -115,3 +115,12 @@ body{
     }
 } /* website will be good readable, even when its small */
 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+  
+.sticky + .content {
+    padding-top: 60px;
+}
